@@ -25,13 +25,81 @@ class _MyDashatarAppState extends State<MyDashatarApp> {
           ),
           backgroundColor: Colors.black,
         ),
-        body: Center(
-          child: Image.asset(
-            width: 500,
-            height: 500,
-            'assets/images/mydash.png',
-          ),
-        ),
+        body: ListView(
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.red,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blue,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.yellow,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ) , Container(
+              height: 100,
+              width: 100,
+              color: Colors.red,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blue,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.yellow,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.red,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blue,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.yellow,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple,
+              child: Image.asset(  'assets/images/mydash.png',),
+            ),
+          ],
+        )
       ),
     );
   }
